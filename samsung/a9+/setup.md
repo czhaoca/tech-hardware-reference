@@ -14,10 +14,12 @@ This document provides a general guide for setting up Samsung devices, including
    - Enable **USB Debugging** to allow ADB access.
 
 ### 3. **Install ADB on Your Computer**:
-   - Follow the instructions in the main `README.md` to install ADB on your system.
+   - You can download ADB platform tools directly from the official [Android Developer website](https://developer.android.com/tools/releases/platform-tools).
+   - **Note**: Installing Android Studio is not necessary to use ADB. You can simply download the standalone ADB platform tools and use them to interact with your device.
 
 ### 4. **Connecting the Device**:
    - Use a USB cable to connect the Samsung device to your computer.
+   - Authorize the connection on your device when prompted.
 
 ## Useful Configurations
 
@@ -25,5 +27,9 @@ This document provides a general guide for setting up Samsung devices, including
 - **Custom ROMs**: If you plan on installing a custom ROM, ensure you unlock the bootloader and back up important data first.
 
 ## Backup and Restore
+
 It's always a good idea to back up your device before making significant changes to system apps.
+
+- Use Samsung Cloud or Google Drive to backup your contacts, settings, and photos.
+- You can also perform a local backup using ADB or third-party tools.
 
