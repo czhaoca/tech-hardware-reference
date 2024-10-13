@@ -33,7 +33,6 @@ This file contains a list of Samsung-specific apps that can be safely uninstalle
      adb shell pm uninstall --user 0 com.sec.android.app.sbrowser
      ```
 
-... (more apps can be added as needed)
 
 ## Notes
 - Use the appropriate ADB commands to either **disable** or **uninstall** apps depending on your preference.
